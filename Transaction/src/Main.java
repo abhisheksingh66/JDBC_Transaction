@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         String url ="jdbc:mysql://localhost:3306/school";
         String username = "root";
-        String password = "@Anshulsingh66";
+        String password = "@EnterYourMysqlPAssword";
         String widthDrawQuery =" UPDATE accounts SET balance = balance - ? WHERE account_number = ?";
         String depositQuery = "UPDATE accounts SET balance = balance + ? WHERE account_number = ?";
 
